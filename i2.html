@@ -6,6 +6,70 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
     <title>Email</title>
 </head>
+
+<style>
+
+    /* FOR BIG SCREEN SIZES */
+    @media only screen and (min-width:960px) {
+        .container {
+            width: 960px;
+        }
+        .header-left {
+            padding: 15px 15px 105px 15px;
+            width: 50%;
+        }
+        .header-right {
+            width: 50%;
+        }
+        .header-right img {
+            position: relative;
+            top: 43px;
+        }
+    }
+
+
+
+    /* FOR MEDIUM SCREEN SIZES */
+    @media only screen and (max-width:960px) {
+        .container {
+            width: 600px;
+        }
+        .header-left {
+            padding: 15px 15px 70px 15px;
+            width: 50%;
+        }
+        .header-right {
+            width: 50%;
+        }
+        .header-right img {
+            position: relative;
+            top: 31px;
+        }
+    }
+
+
+    
+    /* FOR MOBILE DEVICES ONLY */
+    @media only screen and (max-width:600px) {
+        .container {
+            width: 100%;
+        }
+        .header-left {
+            width: 100%;
+        }
+        .header-right {
+            width: 100%;
+        }
+        .advanced-table {
+            width: 100%;
+        }
+        .advanced-table tr td #img-head {
+            width: 100%;            
+        }
+    }
+
+</style>
+
 <body style="background-color: black; margin: 0;">
 
 
@@ -14,7 +78,7 @@
             <td>
 
                 <!-- CONTAINER TABLE STARTS HERE -->
-                <table class="container" style="width: 600px; background-color: white; margin: auto;" align="center" cellspacing="0" cellpadding="0" border="0">
+                <table class="container" style="background-color: white; margin: auto;" align="center" cellspacing="0" cellpadding="0" border="0">
 
 
 
@@ -27,12 +91,12 @@
                         <td>
 
                             <!-- LEFT-SIDE STARTS HERE -->
-                            <table class="header-container" style="width: 50%; background: #6db3f2;
+                            <table class="header-left" style="background: #6db3f2;
                             background: -moz-linear-gradient(-45deg,  #6db3f2 0%, #54a3ee 20%, #3690f0 54%, #1e69de 100%);
                             background: -webkit-linear-gradient(-45deg,  #6db3f2 0%,#54a3ee 20%,#3690f0 54%,#1e69de 100%);
                             background: linear-gradient(135deg,  #6db3f2 0%,#54a3ee 20%,#3690f0 54%,#1e69de 100%);
                             filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#6db3f2', endColorstr='#1e69de',GradientType=1 );
-                            padding: 15px 15px 70px 15px;" align="left" cellspacing="0" cellpadding="0" border="0">
+                            " align="left" cellspacing="0" cellpadding="0" border="0">
                                 <tr>
                                     <td
                                         style="font-family: 'Open Sans', sans-serif; color: white; padding-bottom: 3px;">
@@ -57,7 +121,7 @@
 
 
                             <!-- RIGHT-SIDE STARTS HERE -->
-                            <table class="header-container" style="width: 50%; background-color: white; margin: auto; padding: 22px;" align="right" cellspacing="0" cellpadding="0" border="0">
+                            <table class="header-right" style="background-color: white; margin: auto; padding: 22px;" align="right" cellspacing="0" cellpadding="0" border="0">
                                 <tr>
                                     <td>
                                         <table style="width: 100%; background-color: white; margin: auto;" align="right" cellspacing="0" cellpadding="0" border="0">
@@ -80,7 +144,7 @@
                                 <tr>
                                     <td align="center" style="padding-top: 33px;">
                                         <img src="images/smartwatch.png" alt=""
-                                        style="position:relative; top: 30px;">
+                                        style="position:relative;">
                                     </td>
                                 </tr>
                             </table>
@@ -210,14 +274,14 @@
                     <!-- MOST ADVANCED ROW STARTS HERE -->
 
                     <tr>
-                        <td style="padding: 70px 0 50px;">
+                        <td style="padding: 70px 0 50px 0;">
 
 
-                            <table style="background-color: white; margin: auto;" cellspacing="0" cellpadding="0" border="0">
+                            <table class="advanced-table" style="background-color: white; margin: auto;" cellspacing="0" cellpadding="0" border="0">
 
                                 <tr>
                                     <td style="padding-bottom:50px;">
-                                        <img src="images/image_head.jpg" alt="">
+                                        <img id="img-head" src="images/image_head.jpg" alt="">
                                     </td>
                                 </tr>
                                 <tr>
