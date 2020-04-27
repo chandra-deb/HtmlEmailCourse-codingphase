@@ -6,6 +6,156 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
     <title>Email</title>
 </head>
+
+<style>
+
+    /* FOR BIG SCREEN SIZES */
+    @media only screen and (min-width:960px) {
+        .container {
+            width: 960px;
+        }
+        .header-left {
+            padding: 15px 15px 105px 50px !important;
+            width: 50%;
+        }
+        .header-right {
+            width: 50%;
+        }
+        .header-right #nav-row {
+            padding-left: 55px !important;
+        }
+        .header-right img {
+            position: relative;
+            top: 43px;
+        }
+        .hero-let-row {
+            padding-left: 50px !important;
+            padding-right: 50px !important;
+        }
+        .hero-let-left {
+            padding-right: 60px !important;
+        }
+        .hero-let-middle {
+            padding-right: 50px !important;
+            padding-left: 45px !important;
+        }
+        .hero-let-right{
+            padding-left: 100px !important;
+        }
+        .adv-store-column {
+            padding-left: 50px !important;
+            padding-right: 50px !important;
+        }
+        .adv-col-left {
+            padding-right: 50px !important;
+        }
+        .adv-col-right {
+            padding-left: 50px !important;
+        }
+    }
+
+
+
+    /* FOR MEDIUM SCREEN SIZES */
+    @media only screen and (max-width:960px) {
+        .container {
+            width: 600px;
+        }
+        .header-left {
+            padding: 15px 15px 70px 15px;
+            width: 50%;
+        }
+        .header-right {
+            width: 50%;
+        }
+        .header-right img {
+            position: relative;
+            top: 31px;
+        }
+    }
+
+
+    
+    /* FOR MOBILE DEVICES ONLY */
+    @media only screen and (max-width:600px) {
+        .container {
+            width: 100%;
+        }
+        .header-left {
+            width: 100%;
+            padding-left: 50px;
+        }
+        .header-right {
+            width: 100%;
+        }
+        .header-right #top-right-nav {
+            text-align: center;
+        }
+        .hero-let-left {
+            width: 50%;
+        }
+        .hero-let-middle {
+            width: 50%;
+        }
+        .hero-let-right {
+            width: 100%;
+            padding-top: 30px;
+        }
+        .advanced-table {
+            width: 100%;
+        }
+        .advanced-table #most-adv-img-tr {
+            width: 100%;     
+            text-align: center;       
+        }
+        .advanced-table #img-head {
+            width: 95%;
+        }
+        .adv-col-left {
+            width: 100%;
+            text-align: center;
+        }
+        .adv-col-left #appstore-btn {
+            text-align: center;
+        }
+        .adv-col-right {
+            width: 100%;
+            text-align: center;
+        }
+        .adv-col-right #playstore-btn {
+            text-align: center; 
+        }
+        .features-all-table .left-table {
+            width: 100%;
+            padding-bottom: 50px;
+        }
+        .features-all-table .left-table tr td p {
+            margin-top: 0px;
+        }
+        .features-all-table .middle-table {
+            width: 100%;
+            padding-bottom: 50px;
+        }
+        .features-all-table .middle-table tr td p {
+            margin-top: 0px;
+        }
+        .features-all-table .right-table {
+            width: 100%;
+            padding-bottom: 50px;
+        }
+        .features-all-table .right-table tr td p {
+            margin-top: 0px;
+        }
+        .rsp-left-column {
+            width: 100%;
+        }
+        .rsp-right-column{
+            width: 100%;
+        }
+    }
+
+</style>
+
 <body style="background-color: black; margin: 0;">
 
 
@@ -14,7 +164,7 @@
             <td>
 
                 <!-- CONTAINER TABLE STARTS HERE -->
-                <table class="container" style="width: 600px; background-color: white; margin: auto;" align="center" cellspacing="0" cellpadding="0" border="0">
+                <table class="container" style="background-color: white; margin: auto;" align="center" cellspacing="0" cellpadding="0" border="0">
 
 
 
@@ -27,12 +177,12 @@
                         <td>
 
                             <!-- LEFT-SIDE STARTS HERE -->
-                            <table class="header-container" style="width: 50%; background: #6db3f2;
+                            <table class="header-left" style="background: #6db3f2;
                             background: -moz-linear-gradient(-45deg,  #6db3f2 0%, #54a3ee 20%, #3690f0 54%, #1e69de 100%);
                             background: -webkit-linear-gradient(-45deg,  #6db3f2 0%,#54a3ee 20%,#3690f0 54%,#1e69de 100%);
                             background: linear-gradient(135deg,  #6db3f2 0%,#54a3ee 20%,#3690f0 54%,#1e69de 100%);
                             filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#6db3f2', endColorstr='#1e69de',GradientType=1 );
-                            padding: 15px 15px 70px 15px;" align="left" cellspacing="0" cellpadding="0" border="0">
+                            " align="left" cellspacing="0" cellpadding="0" border="0">
                                 <tr>
                                     <td
                                         style="font-family: 'Open Sans', sans-serif; color: white; padding-bottom: 3px;">
@@ -57,11 +207,11 @@
 
 
                             <!-- RIGHT-SIDE STARTS HERE -->
-                            <table class="header-container" style="width: 50%; background-color: white; margin: auto; padding: 22px;" align="right" cellspacing="0" cellpadding="0" border="0">
+                            <table class="header-right" style="background-color: white; margin: auto; padding: 22px;" align="right" cellspacing="0" cellpadding="0" border="0">
                                 <tr>
-                                    <td>
+                                    <td id="nav-row">
                                         <table style="width: 100%; background-color: white; margin: auto;" align="right" cellspacing="0" cellpadding="0" border="0">
-                                            <tr>
+                                            <tr id="top-right-nav">
                                                 <td><a style="color: #7d7d7d; text-decoration: none; font-size: 14px; font-weight: 600; text-align: center; padding-left: 8px;"
                                                         href="#">ABOUT</a>
                                                 </td>
@@ -80,7 +230,7 @@
                                 <tr>
                                     <td align="center" style="padding-top: 33px;">
                                         <img src="images/smartwatch.png" alt=""
-                                        style="position:relative; top: 30px;">
+                                        style="position:relative;">
                                     </td>
                                 </tr>
                             </table>
@@ -107,8 +257,8 @@
 
                     <tr>
                         
-                        <td style="background-color: #fafafa; padding-bottom: 80px; padding-left: 2px;">
-                            <table class="hero-let" style="width: 33.3%;  margin: auto; padding-left: 15px; padding-right:2px" align="left" cellspacing="0" cellpadding="0" border="0">
+                        <td class="hero-let-row" style="background-color: #fafafa; padding-bottom: 80px;">
+                            <table class="hero-let-left" width="33.3%" style="margin: auto;" align="left" cellspacing="0" cellpadding="0" border="0">
                                 <tr>
                                     <td style="font-family: 'Open Sans', sans-serif;
                                     color: #333333; padding: 0px 0px;font-weight: 600;">
@@ -139,7 +289,7 @@
                                 </tr>
                             </table>
 
-                            <table class="hero-let" style="width: 33.3%;  margin: auto; padding-left: 15px; padding-right:2px" align="left" cellspacing="0" cellpadding="0" border="0">
+                            <table class="hero-let-middle" width="33.3%" style="margin: auto;" align="left" cellspacing="0" cellpadding="0" border="0">
                                 <tr>
                                     <td style="font-family: 'Open Sans', sans-serif;
                                     color: #333333; padding: 0px 0px; font-weight: 600;">
@@ -170,7 +320,7 @@
                                 </tr>
                             </table>
 
-                            <table class="hero-let" style="width: 33.3%;  margin: auto; padding-left: 10px; padding-right: 7px;" align="left" cellspacing="0" cellpadding="0" border="0">
+                            <table class="hero-let-right" width="33.3%" style="margin: auto;" align="left" cellspacing="0" cellpadding="0" border="0">
                                 <tr>
                                     <td style="font-family: 'Open Sans', sans-serif;
                                     color: #333333; padding: 0px 0px; font-weight: 600;">
@@ -210,14 +360,14 @@
                     <!-- MOST ADVANCED ROW STARTS HERE -->
 
                     <tr>
-                        <td style="padding: 70px 0 50px;">
+                        <td style="padding: 70px 0 50px 0;">
 
 
-                            <table style="background-color: white; margin: auto;" cellspacing="0" cellpadding="0" border="0">
+                            <table class="advanced-table" style="background-color: white; margin: auto;" cellspacing="0" cellpadding="0" border="0">
 
-                                <tr>
+                                <tr id="most-adv-img-tr">
                                     <td style="padding-bottom:50px;">
-                                        <img src="images/image_head.jpg" alt="">
+                                        <img id="img-head" src="images/image_head.jpg" alt="">
                                     </td>
                                 </tr>
                                 <tr>
@@ -236,28 +386,28 @@
 
 
                     <tr>
-                        <td style="padding-bottom: 45px;">  
+                        <td class="adv-store-column" style="padding-bottom: 45px;">  
 
-                            <table class="a-and-p-store" align="left" style="width: 50%;background-color: white; margin: auto; padding: 20px" cellspacing="0" cellpadding="0" border="0">
+                            <table class="adv-col-left" align="left" width="50%" style="background-color: white; margin: auto; padding: 20px" cellspacing="0" cellpadding="0" border="0">
                                 <tr>
                                     <td>
                                         <p style="font-family: 'Open Sans', sans-serif; font-weight: 600; line-height: 1.8; color: #a0a6a6; margin-bottom: 12px;">The Strong museum has collected more than 55,000 video games and related artifacts from the history of gaming.</p>
                                     </td>
                                 </tr>
-                                <tr align="right">
+                                <tr id="appstore-btn" align="right">
                                     <td style="padding-top:25px">
                                         <a href="#"><img src="images/appstore.png" alt=""></a>
                                     </td>
                                 </tr>
                             </table>
 
-                            <table class="a-and-p-store" align="right" style="width: 50%;background-color: white; margin: auto; padding: 20px;" cellspacing="0" cellpadding="0" border="0">
+                            <table class="adv-col-right" align="right" width="50%" style="background-color: white; margin: auto; padding: 20px;" cellspacing="0" cellpadding="0" border="0">
                                 <tr>
                                     <td>
                                         <p style="font-family: 'Open Sans', sans-serif; font-weight: 600; line-height: 1.8; color: #a0a6a6; margin-bottom: 12px;">Remote Mouse lets you use your iPhone, Android or Windows Phone as a touchpad to control your onscreen.</p>                                                    
                                     </td>
                                 </tr>
-                                <tr>
+                                <tr id="play-store-btn">
                                     <td style="padding-top: 25px;">
                                         <a href="#"><img src="images/playstore.png" alt=""></a>
                                     </td>
@@ -338,7 +488,7 @@
                         <td>
 
 
-                            <table style="font-family: 'Open Sans', sans-serif; margin: 70px auto;" cellspacing="0" cellpadding="0" border="0">
+                            <table class="features-all-table" style="font-family: 'Open Sans', sans-serif; margin: 70px auto;" cellspacing="0" cellpadding="0" border="0">
                                 <tr>
                                     <td align="center">
                                         <h3
@@ -349,7 +499,7 @@
                                 </tr>
                                 <tr>
                                     <td style="width: 100%;">
-                                        <table align="left" style="width: 33.3%; margin: auto;" cellspacing="0" cellpadding="0" border="0">
+                                        <table class="left-table" align="left" width="33.33%" style="argin: auto;" cellspacing="0" cellpadding="0" border="0">
                                             <tr>
                                                 <td align="center">
                                                     <img src="images/watch_screen.png" alt="">
@@ -377,7 +527,7 @@
                                         </table>
 
 
-                                        <table align="left" style="width: 33.3%;  margin: auto;" cellspacing="0" cellpadding="0" border="0">
+                                        <table class="middle-table" align="left" width="33.33%" style="margin: auto;" cellspacing="0" cellpadding="0" border="0">
                                             <tr>
                                                 <td align="center">
                                                     <img src="images/watch_screen.png" alt="">
@@ -405,7 +555,7 @@
                                         </table>
 
 
-                                        <table align="left" style="width: 33.3%;  margin: auto;" cellspacing="0" cellpadding="0" border="0">
+                                        <table class="right-table" align="left" width="33.33%" style="margin: auto;" cellspacing="0" cellpadding="0" border="0">
                                             <tr>
                                                 <td align="center">
                                                     <img src="images/watch_screen.png" alt="">
@@ -452,7 +602,7 @@
                         <td style="background-color: #fafafa; padding-top: 75px; padding-bottom: 75px;">
 
 
-                            <table align="left" style="width: 100%;  margin: auto;" cellspacing="0" cellpadding="0" border="0">
+                            <table width="100%" align="left" style="margin: auto;" cellspacing="0" cellpadding="0" border="0">
 
 
                                 <tr>
@@ -460,7 +610,7 @@
 
                                         <!-- LEFT-SIDE STARTS HERE -->
                                         
-                                        <table align="left" style="width: 50%; margin: auto; padding-left: 20px; padding-right: 12px;" cellspacing="0" cellpadding="0" border="0">
+                                        <table class="rsp-left-column" width="50%" align="left" style="margin: auto; padding-left: 20px; padding-right: 12px;" cellspacing="0" cellpadding="0" border="0">
 
                                             <tr>
                                                 <td>
@@ -541,7 +691,7 @@
 
                                         <!-- RIGHT-SIDE STARTS HERE -->
                                         
-                                        <table align="right" style="width: 50%; margin: auto; padding-left: 30px; padding-right: 7px;" cellspacing="0" cellpadding="0" border="0">
+                                        <table class="rsp-right-column"  width="50%"align="right" style="margin: auto; padding-left: 30px; padding-right: 7px;" cellspacing="0" cellpadding="0" border="0">
 
                                             <tr>
                                                 <td>
