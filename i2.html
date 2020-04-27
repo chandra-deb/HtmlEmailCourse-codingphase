@@ -60,11 +60,42 @@
         .header-right {
             width: 100%;
         }
+        .header-right #top-right-nav {
+            text-align: center;
+        }
+        .hero-let-left {
+            width: 50%;
+        }
+        .hero-let-middle {
+            width: 50%;
+        }
+        .hero-let-right {
+            width: 100%;
+            padding-top: 30px;
+        }
         .advanced-table {
             width: 100%;
         }
-        .advanced-table tr td #img-head {
-            width: 100%;            
+        .advanced-table #most-adv-img-tr {
+            width: 100%;     
+            text-align: center;       
+        }
+        .advanced-table #img-head {
+            width: 95%;
+        }
+        .adv-col-left {
+            width: 100%;
+            text-align: center;
+        }
+        .adv-col-left #appstore-btn {
+            text-align: center;
+        }
+        .adv-col-right {
+            width: 100%;
+            text-align: center;
+        }
+        .adv-col-right #playstore-btn {
+            text-align: center;
         }
     }
 
@@ -125,7 +156,7 @@
                                 <tr>
                                     <td>
                                         <table style="width: 100%; background-color: white; margin: auto;" align="right" cellspacing="0" cellpadding="0" border="0">
-                                            <tr>
+                                            <tr id="top-right-nav">
                                                 <td><a style="color: #7d7d7d; text-decoration: none; font-size: 14px; font-weight: 600; text-align: center; padding-left: 8px;"
                                                         href="#">ABOUT</a>
                                                 </td>
@@ -172,7 +203,7 @@
                     <tr>
                         
                         <td style="background-color: #fafafa; padding-bottom: 80px; padding-left: 2px;">
-                            <table class="hero-let" style="width: 33.3%;  margin: auto; padding-left: 15px; padding-right:2px" align="left" cellspacing="0" cellpadding="0" border="0">
+                            <table class="hero-let-left" width="33.3%" style="margin: auto; padding-left: 15px; padding-right:2px" align="left" cellspacing="0" cellpadding="0" border="0">
                                 <tr>
                                     <td style="font-family: 'Open Sans', sans-serif;
                                     color: #333333; padding: 0px 0px;font-weight: 600;">
@@ -203,7 +234,7 @@
                                 </tr>
                             </table>
 
-                            <table class="hero-let" style="width: 33.3%;  margin: auto; padding-left: 15px; padding-right:2px" align="left" cellspacing="0" cellpadding="0" border="0">
+                            <table class="hero-let-middle" width="33.3%" style="margin: auto; padding-left: 15px; padding-right:2px" align="left" cellspacing="0" cellpadding="0" border="0">
                                 <tr>
                                     <td style="font-family: 'Open Sans', sans-serif;
                                     color: #333333; padding: 0px 0px; font-weight: 600;">
@@ -234,7 +265,7 @@
                                 </tr>
                             </table>
 
-                            <table class="hero-let" style="width: 33.3%;  margin: auto; padding-left: 10px; padding-right: 7px;" align="left" cellspacing="0" cellpadding="0" border="0">
+                            <table class="hero-let-right" width="33.3%" style="margin: auto; padding-left: 10px; padding-right: 7px;" align="left" cellspacing="0" cellpadding="0" border="0">
                                 <tr>
                                     <td style="font-family: 'Open Sans', sans-serif;
                                     color: #333333; padding: 0px 0px; font-weight: 600;">
@@ -279,7 +310,7 @@
 
                             <table class="advanced-table" style="background-color: white; margin: auto;" cellspacing="0" cellpadding="0" border="0">
 
-                                <tr>
+                                <tr id="most-adv-img-tr">
                                     <td style="padding-bottom:50px;">
                                         <img id="img-head" src="images/image_head.jpg" alt="">
                                     </td>
@@ -302,26 +333,26 @@
                     <tr>
                         <td style="padding-bottom: 45px;">  
 
-                            <table class="a-and-p-store" align="left" style="width: 50%;background-color: white; margin: auto; padding: 20px" cellspacing="0" cellpadding="0" border="0">
+                            <table class="adv-col-left" align="left" width="50%" style="background-color: white; margin: auto; padding: 20px" cellspacing="0" cellpadding="0" border="0">
                                 <tr>
                                     <td>
                                         <p style="font-family: 'Open Sans', sans-serif; font-weight: 600; line-height: 1.8; color: #a0a6a6; margin-bottom: 12px;">The Strong museum has collected more than 55,000 video games and related artifacts from the history of gaming.</p>
                                     </td>
                                 </tr>
-                                <tr align="right">
+                                <tr id="appstore-btn" align="right">
                                     <td style="padding-top:25px">
                                         <a href="#"><img src="images/appstore.png" alt=""></a>
                                     </td>
                                 </tr>
                             </table>
 
-                            <table class="a-and-p-store" align="right" style="width: 50%;background-color: white; margin: auto; padding: 20px;" cellspacing="0" cellpadding="0" border="0">
+                            <table class="adv-col-right" align="right" width="50%" style="background-color: white; margin: auto; padding: 20px;" cellspacing="0" cellpadding="0" border="0">
                                 <tr>
                                     <td>
                                         <p style="font-family: 'Open Sans', sans-serif; font-weight: 600; line-height: 1.8; color: #a0a6a6; margin-bottom: 12px;">Remote Mouse lets you use your iPhone, Android or Windows Phone as a touchpad to control your onscreen.</p>                                                    
                                     </td>
                                 </tr>
-                                <tr>
+                                <tr id="play-store-btn">
                                     <td style="padding-top: 25px;">
                                         <a href="#"><img src="images/playstore.png" alt=""></a>
                                     </td>
