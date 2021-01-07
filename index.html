@@ -1,0 +1,912 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
+    <title>Email</title>
+</head>
+
+<style>
+
+    /* FOR BIG SCREEN SIZES */
+    @media only screen and (min-width:960px) {
+        .container {
+            width: 960px;
+        }
+        .header-left {
+            padding: 15px 15px 105px 50px !important;
+            width: 50%;
+        }
+        .header-right {
+            width: 50%;
+        }
+        .header-right #nav-row {
+            padding-left: 55px !important;
+        }
+        .header-right img {
+            position: relative;
+            top: 43px;
+        }
+        .hero-let-row {
+            padding-left: 50px !important;
+            padding-right: 50px !important;
+        }
+        .hero-let-left {
+            padding-right: 60px !important;
+        }
+        .hero-let-middle {
+            padding-right: 50px !important;
+            padding-left: 45px !important;
+        }
+        .hero-let-right{
+            padding-left: 100px !important;
+        }
+        .adv-store-column {
+            padding-left: 50px !important;
+            padding-right: 50px !important;
+        }
+        .adv-col-left {
+            padding-right: 50px !important;
+        }
+        .adv-col-right {
+            padding-left: 50px !important;
+        }
+    }
+
+
+
+    /* FOR MEDIUM SCREEN SIZES */
+    @media only screen and (max-width:960px) {
+        .container {
+            width: 600px;
+        }
+        .header-left {
+            padding: 15px 15px 70px 15px;
+            width: 50%;
+        }
+        .header-right {
+            width: 50%;
+        }
+        .header-right img {
+            position: relative;
+            top: 31px;
+        }
+    }
+
+
+    
+    /* FOR MOBILE DEVICES ONLY */
+    @media only screen and (max-width:600px) {
+        .container {
+            width: 100%;
+        }
+        .header-left {
+            width: 100%;
+            padding-left: 50px;
+        }
+        .header-right {
+            width: 100%;
+        }
+        .header-right #top-right-nav {
+            text-align: center;
+        }
+        .hero-let-left {
+            width: 50%;
+        }
+        .hero-let-middle {
+            width: 50%;
+        }
+        .hero-let-right {
+            width: 100%;
+            padding-top: 30px;
+        }
+        .advanced-table {
+            width: 100%;
+        }
+        .advanced-table #most-adv-img-tr {
+            width: 100%;     
+            text-align: center;       
+        }
+        .advanced-table #img-head {
+            width: 95%;
+        }
+        .adv-col-left {
+            width: 100%;
+            text-align: center;
+        }
+        .adv-col-left #appstore-btn {
+            text-align: center;
+        }
+        .adv-col-right {
+            width: 100%;
+            text-align: center;
+        }
+        .adv-col-right #playstore-btn {
+            text-align: center; 
+        }
+        .features-all-table .left-table {
+            width: 100%;
+            padding-bottom: 50px;
+        }
+        .features-all-table .left-table tr td p {
+            margin-top: 0px;
+        }
+        .features-all-table .middle-table {
+            width: 100%;
+            padding-bottom: 50px;
+        }
+        .features-all-table .middle-table tr td p {
+            margin-top: 0px;
+        }
+        .features-all-table .right-table {
+            width: 100%;
+            padding-bottom: 50px;
+        }
+        .features-all-table .right-table tr td p {
+            margin-top: 0px;
+        }
+        .rsp-left-column {
+            width: 100%;
+        }
+        .rsp-right-column{
+            width: 100%;
+        }
+    }
+
+</style>
+
+<body style="background-color: black; margin: 0;">
+
+
+    <table style="width: 100%; border: 0;" cellspacing="0" cellpadding="0">
+        <tr>
+            <td>
+
+                <!-- CONTAINER TABLE STARTS HERE -->
+                <table class="container" style="background-color: white; margin: auto;" align="center" cellspacing="0" cellpadding="0" border="0">
+
+
+
+
+
+                    <!-- TOP HEADER CONTAINER STARTS HERE-->
+                    <tr>
+
+                        
+                        <td>
+
+                            <!-- LEFT-SIDE STARTS HERE -->
+                            <table class="header-left" style="background: #6db3f2;
+                            background: -moz-linear-gradient(-45deg,  #6db3f2 0%, #54a3ee 20%, #3690f0 54%, #1e69de 100%);
+                            background: -webkit-linear-gradient(-45deg,  #6db3f2 0%,#54a3ee 20%,#3690f0 54%,#1e69de 100%);
+                            background: linear-gradient(135deg,  #6db3f2 0%,#54a3ee 20%,#3690f0 54%,#1e69de 100%);
+                            filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#6db3f2', endColorstr='#1e69de',GradientType=1 );
+                            " align="left" cellspacing="0" cellpadding="0" border="0">
+                                <tr>
+                                    <td
+                                        style="font-family: 'Open Sans', sans-serif; color: white; padding-bottom: 3px;">
+                                        <img src="images/logo.png" alt="">
+                                        <h2
+                                            style="padding: 25px 0 10px;font-size: 30px; margin: 0; font-weight: 500; line-height:1;">
+                                            Get ready for</h2>
+                                        <h1 style="font-size: 80px; margin: 0; line-height:1; padding: 0 0 10px">HERO
+                                        </h1>
+                                        <p
+                                            style="font-size: 15px; font-style: italic; padding: 20px 0 40px; line-height: 1.5;">
+                                            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Lorem ipsum dolor
+                                            sit amet.
+                                        </p>
+                                        <a href="#" style="border: 2px solid white; border-radius: 4px; text-decoration: none; color: white; padding: 8px 15px; font-size: 14px;">LEARN
+                                            MORE
+                                        </a>
+                                    </td>
+                                </tr>
+                            </table>
+                            <!-- LEFT-SIDE ENDS HERE -->
+
+
+                            <!-- RIGHT-SIDE STARTS HERE -->
+                            <table class="header-right" style="background-color: white; margin: auto; padding: 22px;" align="right" cellspacing="0" cellpadding="0" border="0">
+                                <tr>
+                                    <td id="nav-row">
+                                        <table style="width: 100%; background-color: white; margin: auto;" align="right" cellspacing="0" cellpadding="0" border="0">
+                                            <tr id="top-right-nav">
+                                                <td><a style="color: #7d7d7d; text-decoration: none; font-size: 14px; font-weight: 600; text-align: center; padding-left: 8px;"
+                                                        href="#">ABOUT</a>
+                                                </td>
+                                                <td><a style="color: #7d7d7d; text-decoration: none; font-size: 14px; font-weight: 600; text-align: center; padding-left: 8px;"
+                                                        href="#">CAREERS</a>
+                                                </td>
+                                                <td><a style="color: #7d7d7d; text-decoration: none; font-size: 14px; font-weight: 600; text-align: center; padding-left: 8px;"
+                                                        href="#">CONTACT</a>
+                                                </td>
+                                            </tr>
+
+                                        </table>
+                                    </td>
+                                </tr>
+
+                                <tr>
+                                    <td align="center" style="padding-top: 33px;">
+                                        <img src="images/smartwatch.png" alt=""
+                                        style="position:relative;">
+                                    </td>
+                                </tr>
+                            </table>
+                            <!-- RIGHT-SIDE ENDS HERE -->
+
+                        </td>
+                        
+
+                    </tr>
+                    <!-- TOP HEADER CONTAINER ENDS HERE -->
+
+                    
+                    <!-- LETS YOU CONTAINER STARTS HERE -->
+                    <tr>
+                       
+                        <td align="center" style="background-color: #fafafa; padding-top: 50px;">
+                            <h3 style="margin: 40px; font-family: 'Open Sans', sans-serif; color: #333333; font-size: 28px; font-weight: 300;">
+                                Hero lets
+                                you...
+                            </h3>
+                        </td>
+
+                    </tr>
+
+                    <tr>
+                        
+                        <td class="hero-let-row" style="background-color: #fafafa; padding-bottom: 80px; padding-left: 2px;">
+                            <table class="hero-let-left" width="33.3%" style="margin: auto; padding-left: 10px;" align="left" cellspacing="0" cellpadding="0" border="0">
+                                <tr>
+                                    <td style="font-family: 'Open Sans', sans-serif;
+                                    color: #333333; padding: 0px 0px;font-weight: 600;">
+                                        <table>
+                                            <tr>
+                                                <td><img src="images/bell_icon.png" alt=""></td>
+                                                <td style="font-family: 'Open Sans', sans-serif;
+                                                color: #333333; font-weight: 600; padding: 0px 8px;">
+                                                    <h3>NOTIFY</h3>
+                                                </td>
+                                            </tr>
+                                        </table>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <p style="font-family: 'Open Sans', sans-serif; font-weight: 600; line-height: 1.8; color: #a0a6a6; margin-bottom: 12px; margin-top: 4px;">
+                                        Cras mattis consectetur purus sit fermentum
+                                        </p>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <a style="font-family: 'Open Sans', sans-serif; text-decoration: none; color: #468ccb; font-weight: 600;" href="#">
+                                            Learn More
+                                        </a>
+                                    </td>
+                                </tr>
+                            </table>
+
+                            <table class="hero-let-middle" width="33.3%" style="margin: auto; padding-left: 15px; padding-right:2px" align="left" cellspacing="0" cellpadding="0" border="0">
+                                <tr>
+                                    <td style="font-family: 'Open Sans', sans-serif;
+                                    color: #333333; padding: 0px 0px; font-weight: 600;">
+                                        <table>
+                                            <tr>
+                                                <td><img src="images/share_icon.png" alt=""></td>
+                                                <td style="font-family: 'Open Sans', sans-serif;
+                                                color: #333333; font-weight: 600; padding: 0px 8px;">
+                                                    <h3>SHARE</h3>
+                                                </td>
+                                            </tr>
+                                        </table>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <p style="font-family: 'Open Sans', sans-serif; font-weight: 600; line-height: 1.8; color: #a0a6a6; margin-bottom: 12px; margin-top: 4px;">
+                                        Cras mattis consectetur purus sit fermentum
+                                        </p>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <a style="font-family: 'Open Sans', sans-serif; text-decoration: none; color: #468ccb; font-weight: 600;" href="#">
+                                            Learn More
+                                        </a>
+                                    </td>
+                                </tr>
+                            </table>
+
+                            <table class="hero-let-right" width="33.3%" style="margin: auto; padding-left: 10px; padding-right: 7px;" align="left" cellspacing="0" cellpadding="0" border="0">
+                                <tr>
+                                    <td style="font-family: 'Open Sans', sans-serif;
+                                    color: #333333; padding: 0px 0px; font-weight: 600;">
+                                        <table>
+                                            <tr>
+                                                <td><img src="images/wifi_icon.png" alt=""></td>
+                                                <td style="font-family: 'Open Sans', sans-serif;
+                                                color: #333333; font-weight: 600; padding: 0px 8px;">
+                                                    <h3>CONNECT</h3>
+                                                </td>
+                                            </tr>
+                                        </table>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <p
+                                        style="font-family: 'Open Sans', sans-serif; font-weight: 600; line-height: 1.8; color: #a0a6a6; margin-bottom: 12px; margin-top: 4px;">
+                                        Cras mattis consectetur purus sit fermentum
+                                        </p>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <a style="font-family: 'Open Sans', sans-serif; text-decoration: none; color: #468ccb; font-weight: 600;" href="#">
+                                            Learn More
+                                        </a>
+                                    </td>
+                                </tr>
+                            </table>
+                        </td>
+                    </tr>
+                    <!-- LETS YOU CONTAINER ENDS HERE -->
+
+
+
+                    <!-- MOST ADVANCED ROW STARTS HERE -->
+
+                    <tr>
+                        <td style="padding: 70px 0 50px 0;">
+
+
+                            <table class="advanced-table" style="background-color: white; margin: auto;" cellspacing="0" cellpadding="0" border="0">
+
+                                <tr id="most-adv-img-tr">
+                                    <td style="padding-bottom:50px;">
+                                        <img id="img-head" src="images/image_head.jpg" alt="">
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td align="center">
+                                        <h3
+                                            style="margin: auto; font-family: 'Open Sans', sans-serif; color: #333333; font-size: 28px; font-weight: 300;">
+                                            World’s <span style="font-weight: 600;">Most Advanced App</span> <br> with
+                                            High-Tech solutions
+                                        </h3>
+                                    </td>
+                                </tr>
+                                
+                            </table>
+                        </td>
+                    </tr>
+
+
+                    <tr>
+                        <td class="adv-store-column" style="padding-bottom: 45px;">  
+
+                            <table class="adv-col-left" align="left" width="50%" style="background-color: white; margin: auto; padding: 20px" cellspacing="0" cellpadding="0" border="0">
+                                <tr>
+                                    <td>
+                                        <p style="font-family: 'Open Sans', sans-serif; font-weight: 600; line-height: 1.8; color: #a0a6a6; margin-bottom: 12px;">The Strong museum has collected more than 55,000 video games and related artifacts from the history of gaming.</p>
+                                    </td>
+                                </tr>
+                                <tr id="appstore-btn" align="right">
+                                    <td style="padding-top:25px">
+                                        <a href="#"><img src="images/appstore.png" alt=""></a>
+                                    </td>
+                                </tr>
+                            </table>
+
+                            <table class="adv-col-right" align="right" width="50%" style="background-color: white; margin: auto; padding: 20px;" cellspacing="0" cellpadding="0" border="0">
+                                <tr>
+                                    <td>
+                                        <p style="font-family: 'Open Sans', sans-serif; font-weight: 600; line-height: 1.8; color: #a0a6a6; margin-bottom: 12px;">Remote Mouse lets you use your iPhone, Android or Windows Phone as a touchpad to control your onscreen.</p>                                                    
+                                    </td>
+                                </tr>
+                                <tr id="play-store-btn">
+                                    <td style="padding-top: 25px;">
+                                        <a href="#"><img src="images/playstore.png" alt=""></a>
+                                    </td>
+                                </tr>
+                            </table>
+
+                        </td>
+                    </tr>
+
+
+                    <!-- MOST ADVANCED ROW ENDS HERE -->
+                    
+                    <!-- DONE ON THE TOP --> <!-- DONE ON THE TOP --> <!-- DONE ON THE TOP -->
+
+                    <!-- ONE APP, ONE SOLUTIONS STARTS HERE -->
+
+
+                    <tr>
+
+                        <td style="padding-top: 80px; padding-bottom: 80px; background-color: #141414;text-align: center;">
+                            <img src="images/one_app.jpg" alt="">
+                        </td>
+                        <!-- <td style="background-color: #141414; padding: 100px 0;">
+
+
+                            <table style="width: 100%; margin: auto;" cellspacing="0" cellpadding="0" border="0">
+                                <tr style="color: #e7dede">
+                                    <td align="center" style="font-family: 'Open Sans', sans-serif;
+                                    color: #fafafa; font-weight: 600; font-size: 20px;">
+                                        <h2>
+                                            One App, One Solution
+                                        </h2>
+                                    </td>
+                                </tr>
+                            </table>
+                            <table style="width: 100%; margin: auto;" cellspacing="0" cellpadding="0" border="0">
+                                <tr style="color: #e7dede";>
+                                    <td style="padding: 10px 20px; font-family: 'Open Sans', sans-serif;">
+                                        <h3 align="center">
+                                            <i class="fas fa-map-marker-alt"></i>
+                                        </h3>
+                                        <p align="center">LOCATIONS</p>
+                                    </td>
+                                    <td style="padding: 10px 20px; font-family: 'Open Sans', sans-serif;">
+                                        <h3 align="center">
+                                            <i class="fas fa-microphone"></i>
+                                        </h3>
+                                        <p align="center">VOICE-OVER</p>
+                                    </td>
+                                    <td style="padding: 10px 20px; font-family: 'Open Sans', sans-serif;">
+                                        <h3 align="center">
+                                            <i class="far fa-calendar"></i>
+                                        </h3>
+                                        <p align="center">CALENDER</p>
+                                    </td>
+                                    <td style="padding: 10px 20px; font-family: 'Open Sans', sans-serif;">
+                                        <h3 align="center">
+                                            <i class="far fa-heart"></i>
+                                        </h3>
+                                        <p align="center">HEART RATE</p>
+                                    </td>
+                                </tr>
+                            </table>
+                        
+
+
+                        </td> -->
+                    </tr>
+
+
+                    <!-- ONE APP, ONE SOLUTIONS ENDS HERE -->
+                    
+                    
+                    <!-- FEATURES ALL ROW STARTS HERE -->
+
+
+                    <tr>
+                        <td>
+
+
+                            <table class="features-all-table" style="font-family: 'Open Sans', sans-serif; margin: 70px auto;" cellspacing="0" cellpadding="0" border="0">
+                                <tr>
+                                    <td align="center">
+                                        <h3
+                                            style="margin: 40px auto 50px; font-family: 'Open Sans', sans-serif; color: #333333; font-size: 28px; font-weight: 300;">
+                                            Features <span style="font-weight: 600;">All Joined Together</span>  in One App
+                                        </h3>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td style="width: 100%;">
+                                        <table class="left-table" align="left" width="33.33%" style="argin: auto;" cellspacing="0" cellpadding="0" border="0">
+                                            <tr>
+                                                <td align="center">
+                                                    <img src="images/watch_screen.png" alt="">
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td align="center" style="font-family: 'Open Sans', sans-serif;">
+                                                    <h4>SYNC</h4>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td align="center" style="font-family: 'Open Sans', sans-serif;">
+                                                    <p style="font-family: 'Open Sans', sans-serif; font-weight: 600; line-height: 1.8; color: #a0a6a6; margin-bottom: 12px;">
+                                                        Computer manufacturer Lenovo is getting flak...
+                                                    </p>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td align="center" style="font-family: 'Open Sans', sans-serif;">
+                                                    <a style="font-family: 'Open Sans', sans-serif; text-decoration: none; color: #468ccb; font-weight: 600;" href="#">
+                                                        Learn more
+                                                    </a>
+                                                </td>
+                                            </tr>
+                                        </table>
+
+
+                                        <table class="middle-table" align="left" width="33.33%" style="margin: auto;" cellspacing="0" cellpadding="0" border="0">
+                                            <tr>
+                                                <td align="center">
+                                                    <img src="images/watch_screen.png" alt="">
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td align="center" style="font-family: 'Open Sans', sans-serif;">
+                                                    <h4>SHARE</h4>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td align="center" style="font-family: 'Open Sans', sans-serif;">
+                                                    <p style="font-family: 'Open Sans', sans-serif; font-weight: 600; line-height: 1.8; color: #a0a6a6; margin-bottom: 12px;">
+                                                        Computer manufacturer Lenovo is getting flak...
+                                                    </p>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td align="center" style="font-family: 'Open Sans', sans-serif;">
+                                                    <a style="font-family: 'Open Sans', sans-serif; text-decoration: none; color: #468ccb; font-weight: 600;" href="#">
+                                                        Learn more
+                                                    </a>
+                                                </td>
+                                            </tr>
+                                        </table>
+
+
+                                        <table class="right-table" align="left" width="33.33%" style="margin: auto;" cellspacing="0" cellpadding="0" border="0">
+                                            <tr>
+                                                <td align="center">
+                                                    <img src="images/watch_screen.png" alt="">
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td align="center" style="font-family: 'Open Sans', sans-serif;">
+                                                    <h4>STATS</h4>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td align="center" style="font-family: 'Open Sans', sans-serif;">
+                                                    <p style="font-family: 'Open Sans', sans-serif; font-weight: 600; line-height: 1.8; color: #a0a6a6; margin-bottom: 12px;">
+                                                        Computer manufacturer Lenovo is getting flak...
+                                                    </p>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td align="center" style="font-family: 'Open Sans', sans-serif;">
+                                                    <a style="font-family: 'Open Sans', sans-serif; text-decoration: none; color: #468ccb; font-weight: 600;" href="#">
+                                                        Learn more
+                                                    </a>
+                                                </td>
+                                            </tr>
+                                        </table>
+
+
+                                    </td>
+                                </tr>
+
+                            </table>
+
+
+                        </td>
+                    </tr>
+
+
+                    <!-- FEATURES ALL ROW ENDS HERE --> 
+                    
+
+                    <!-- RSP LAYOUT ROW STARTS HERE --> 
+
+                    <tr>
+                        <td style="background-color: #fafafa; padding-top: 75px; padding-bottom: 75px;">
+
+
+                            <table width="100%" align="left" style="margin: auto;" cellspacing="0" cellpadding="0" border="0">
+
+
+                                <tr>
+                                    <td>
+
+                                        <!-- LEFT-SIDE STARTS HERE -->
+                                        
+                                        <table class="rsp-left-column" width="50%" align="left" style="margin: auto; padding-left: 20px; padding-right: 12px;" cellspacing="0" cellpadding="0" border="0">
+
+                                            <tr>
+                                                <td>
+                                                    <table style="margin: auto; padding-bottom: 30px;" cellspacing="0" cellpadding="0" border="0">
+                                                        <tr>
+                                                            <td>
+                                                                <table>
+                                                                    <tr>
+                                                                        <td style="padding-right:11px"><img src="images/phone_icon.png" alt=""></td>
+                                                                        <td>
+                                                                            <h4 style="margin: 0; font-family: 'Open Sans', sans-serif;">RESPONSIVE LAYOUT</h4>
+                                                                        </td>
+                                                                    </tr>
+                                                                </table>
+                                                            </td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td>
+                                                                <p style="font-family: 'Open Sans', sans-serif; font-weight: 600; line-height: 1.8; color: #a0a6a6;">
+                                                                    Tanjin is one of nearly 2,000 people to have landed on Italy’s southernmost.
+                                                                </p>
+                                                            </td>
+                                                        </tr>
+                                                    </table>
+
+                                                    <table style="margin: auto; padding-bottom: 30px;" cellspacing="0" cellpadding="0" border="0">
+                                                        <tr>
+                                                            <td>
+                                                                <table>
+                                                                    <tr>
+                                                                        <td style="padding-right:11px"><img src="images/check_icon.png" alt=""></td>
+                                                                        <td>
+                                                                            <h4 style="margin: 0; font-family: 'Open Sans', sans-serif;">VARIOUS SKINS</h4>
+                                                                        </td>
+                                                                    </tr>
+                                                                </table>
+                                                            </td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td>
+                                                                <p style="font-family: 'Open Sans', sans-serif; font-weight: 600; line-height: 1.8; color: #a0a6a6;">
+                                                                    Tanjin is one of nearly 2,000 people to have landed on Italy’s southernmost.
+                                                                </p>
+                                                            </td>
+                                                        </tr>
+                                                    </table>
+
+
+                                                    <table style="margin: auto;" cellspacing="0" cellpadding="0" border="0">
+                                                        <tr>
+                                                            <td>
+                                                                <table>
+                                                                    <tr>
+                                                                        <td style="padding-right:11px"><img src="images/menu_icon.png" alt=""></td>
+                                                                        <td>
+                                                                            <h4 style="margin: 0; font-family: 'Open Sans', sans-serif;">USERFRIENDLY MENUS</h4>
+                                                                        </td>
+                                                                    </tr>
+                                                                </table>
+                                                            </td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td>
+                                                                <p style="font-family: 'Open Sans', sans-serif; font-weight: 600; line-height: 1.8; color: #a0a6a6;">
+                                                                    Tanjin is one of nearly 2,000 people to have landed on Italy’s southernmost.
+                                                                </p>
+                                                            </td>
+                                                        </tr>
+                                                    </table>
+
+                                                </td>
+                                            </tr>
+                                            
+                                        </table>
+
+                                        <!-- LEFT-SIDE ENDS HERE -->
+
+
+                                        <!-- RIGHT-SIDE STARTS HERE -->
+                                        
+                                        <table class="rsp-right-column"  width="50%"align="right" style="margin: auto; padding-left: 30px; padding-right: 7px;" cellspacing="0" cellpadding="0" border="0">
+
+                                            <tr>
+                                                <td>
+                                                    <table style="margin: auto; padding-bottom: 30px;" cellspacing="0" cellpadding="0" border="0">
+                                                        <tr>
+                                                            <td>
+                                                                <table>
+                                                                    <tr>
+                                                                        <td style="padding-right:11px"><img src="images/retina.png" alt=""></td>
+                                                                        <td>
+                                                                            <h4 style="margin: 0; font-family: 'Open Sans', sans-serif;">RETINA READY</h4>
+                                                                        </td>
+                                                                    </tr>
+                                                                </table>
+                                                            </td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td>
+                                                                <p style="font-family: 'Open Sans', sans-serif; font-weight: 600; line-height: 1.8; color: #a0a6a6;">
+                                                                    Tanjin is one of nearly 2,000 people to have landed on Italy’s southernmost.
+                                                                </p>
+                                                            </td>
+                                                        </tr>
+                                                    </table>
+
+                                                    <table style="margin: auto; padding-bottom: 30px;" cellspacing="0" cellpadding="0" border="0">
+                                                        <tr>
+                                                            <td>
+                                                                <table>
+                                                                    <tr>
+                                                                        <td style="padding-right:11px"><img src="images/settings_icon.png" alt=""></td>
+                                                                        <td>
+                                                                            <h4 style="margin: 0; font-family: 'Open Sans', sans-serif;">GREAT PERFORMANCE</h4>
+                                                                        </td>
+                                                                    </tr>
+                                                                </table>
+                                                            </td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td>
+                                                                <p style="font-family: 'Open Sans', sans-serif; font-weight: 600; line-height: 1.8; color: #a0a6a6;">
+                                                                    Tanjin is one of nearly 2,000 people to have landed on Italy’s southernmost.
+                                                                </p>
+                                                            </td>
+                                                        </tr>
+                                                    </table>
+
+
+                                                    <table style="margin: auto;" cellspacing="0" cellpadding="0" border="0">
+                                                        <tr>
+                                                            <td>
+                                                                <table>
+                                                                    <tr>
+                                                                        <td style="padding-right:11px"><img src="images/share_icon2.png" alt=""></td>
+                                                                        <td>
+                                                                            <h4 style="margin: 0; font-family: 'Open Sans', sans-serif;">SOCIAL SHARE</h4>
+                                                                        </td>
+                                                                    </tr>
+                                                                </table>
+                                                            </td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td>
+                                                                <p style="font-family: 'Open Sans', sans-serif; font-weight: 600; line-height: 1.8; color: #a0a6a6;">
+                                                                    Tanjin is one of nearly 2,000 people to have landed on Italy’s southernmost.
+                                                                </p>
+                                                            </td>
+                                                        </tr>
+                                                    </table>
+
+                                                </td>
+                                            </tr>
+                                            
+                                        </table>
+
+                                        <!-- RIGHT-SIDE ENDS HERE -->
+
+
+
+
+                                    </td>
+                                </tr>
+                                
+
+
+                            </table>
+
+
+
+                        </td>
+                    </tr>
+
+                    <!-- RSP LAYOUT ROW ENDS HERE --> 
+
+
+                    <!-- INTERESTED ROW STARTS HERE --> 
+
+
+                    <tr>
+                        <td style="padding: 30px 0; background: #73fffd;
+                        background: -moz-linear-gradient(-45deg, #2c9aed 20%, #2c9aed 54%, #2c9aed 0%);
+                        background: -webkit-linear-gradient(-45deg,  #3eb3f1 0%,#3eb3f1 20%,#3eb3f1 54%,#3eb3f1 100%);
+                        background: linear-gradient(135deg,  #3eb3f1 0%,#3eb3f1 20%,#3eb3f1 54%,#3eb3f1 100%);
+                        filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#6db3f2', endColorstr='#1e69de',GradientType=1 );"
+                        >
+
+
+                            <table style="width: 80%; text-align: center; margin: auto; margin-top: 40px; margin-bottom: 70px; color: white;" cellspacing="0" cellpadding="0" border="0">
+                                <tr>
+                                    <td>
+                                        <h3 style="margin: 20px auto 20px; font-family: 'Open Sans', sans-serif; color: white; font-size: 28px; font-weight: 200;">
+                                        Interested in our App?
+                                        </h3>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <p style="font-size: 18px; font-style: italic; padding: 20px 0 40px; line-height: 1.5;">
+                                            Muriel Bowser’s administration says move is unrelated to charges that encryption caused failures in Metro.
+                                        </p>
+
+
+                                        <!--                                         <p
+                                            
+                                            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Lorem ipsum dolor
+                                            sit amet.
+                                        </p>
+                                        <a href="#" style="border: 2px solid white; border-radius: 4px; text-decoration: none; color: white; padding: 8px 15px; font-size: 14px;">LEARN
+                                            MORE
+                                        </a>
+ -->
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <a href="#" style="border: 2px solid white; border-radius: 4px; text-decoration: none; color: white; padding: 8px 15px; font-size: 14px;">    
+                                        REQUEST A QUOTE
+                                        </a>
+                                    </td>
+                                </tr>
+                            </table>
+
+
+                        </td>
+                    </tr>
+
+
+                    <!-- INTERESTED ROW ENDS HERE -->
+
+                    <!-- FOOTER ROW STARTS HERE -->
+
+
+                    <tr>
+                        <td>
+                            <table style="text-align: center; margin: auto; margin-top: 30px; margin-bottom: 10px;" cellspacing="0" cellpadding="0" border="0">
+                                <tr>
+                                    <td style="font-family: 'Open Sans', sans-serif; font-size: 20px;font-weight: 1000;">
+                                        <h2>HERO</h2>
+                                    </td>
+                                </tr>
+                                <tr>
+
+                                    <td>
+                                        <table style="margin: auto; margin-bottom: 40px;" cellspacing="0" cellpadding="3px" border="0">
+                                            <tr>
+                                                <td>
+                                                    <a href="#"><img src="images/twitter_icon.png" alt=""></a>                                                    
+                                                </td>
+                                                <td>
+                                                    <a href="#"><img src="images/facebook_icon.png" alt=""></a>
+                                                </td>
+                                                <td>
+                                                    <a href="#"><img src="images/google_icon.png" alt=""></a>
+                                                </td>
+                                                <td>
+                                                    <a href="#"><img src="images/pinterest_icon.png" alt=""></a>
+                                                </td>
+                                                <td>
+                                                    <a href="#"><img src="images/linkedin_icon.png" alt=""></a>
+                                                </td>
+                                                <td>
+                                                    <a href="#"><img src="images/youtube_icon.png" alt=""></a>
+                                                </td>
+                                            </tr>
+                                        </table>    
+                                    </td>
+                                    
+                                </tr>
+                                <tr>
+                                    <td style="font-family: 'Open Sans', sans-serif; color: #a0a6a6;">
+                                        <p>
+                                            © 2020 All rights Reserved - Uttonia. Is your inbox overflowing?
+                                            <a href="#" style="font-family: 'Open Sans', sans-serif; color: #468ccb;">
+                                                Unsubscribe 
+                                            </a>
+                                        </p>
+                                    </td>
+                                </tr>
+
+                            </table>
+                        </td>
+                    </tr>
+
+
+                    <!-- FOOTER ROW ENDS HERE -->
+
+
+
+                </table>
+                <!-- CONTAINER TABLE ENDS HERE -->
+
+            </td>
+        </tr>
+    </table>
+
+
+</body>
+</html>
